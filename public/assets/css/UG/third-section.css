@@ -1,0 +1,125 @@
+.ug-third-third-section {
+
+    position: relative;
+
+}
+
+.ug-third-section-container {
+    max-width: 1440px;
+    height: 100%;
+    
+}
+
+.ug-third-section-first-div {
+    background-color: #E6E7E7;  
+    border-radius: 48px;
+    padding: 92px !important;
+    
+}
+
+.ug-third-section-first-content-title {
+    color: #131313;
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+    letter-spacing: -1.44px;
+}
+
+.ug-third-section-first-content-title span {
+    color: #B17B0D;
+}
+
+.ug-third-section-third-content {
+    margin-top: 52px;
+    padding-top: 52px;
+    border-top: 2px solid #D9D9D9;
+}
+
+.ug-third-section-third-content-description-member,
+.ug-third-section-third-content-description-affiliates, 
+.ug-third-section-third-content-description-others,
+.ug-third-section-third-content-description-advertising{
+    /* color:  #1681C2; */
+    /* font-family: Bahnschrift; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 233.333% */
+    margin-left: 8px;
+
+}
+
+.ug-third-section-third-content-description-member {
+    color: #1681C2;
+}
+
+.ug-third-section-third-content-description-affiliates {
+    color: #569E4C;
+}
+
+.ug-third-section-third-content-description-others {
+    color: #F27927;
+}
+
+.ug-third-section-third-content-description-advertising {
+    color: #B17B0D;
+}
+
+
+
+/* 
+@media (max-width: 1440px) {
+
+    .rpp-third-section-first-div {
+        border-radius: 0px !important;
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+    .rpp-third-section-first-content {
+        margin-top: 12px;
+    }
+
+    .rpp-third-section-second-content {
+        margin-top: 32px;
+    }
+    
+    .rpp-third-section .rpp-section-first-content {
+        padding-left: 0px !important;
+    }
+
+}
+
+
+@media (max-width: 769px) {
+
+    .rpp-third-section-first-div {
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .rpp-third-section-first-content-title {
+        max-width: 250px;
+        font-size: 32px;
+        line-height: 40px; /
+    }
+    
+    .rpp-third-section-first-content-description {
+       
+        margin-top: 14px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px; 
+    }
+
+}
+
+
+ */

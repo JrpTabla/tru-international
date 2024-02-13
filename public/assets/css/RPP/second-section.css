@@ -1,0 +1,172 @@
+.rpp-second-section {
+
+    position: relative;
+
+}
+
+.rpp-second-section-container {
+    max-width: 1440px;
+    height: 100%;
+    margin: 120px 0px;
+}
+
+/* First Card */
+
+.rpp-second-section-first-div {    
+    margin-top: auto;
+}
+
+
+.rpp-second-section-first-content-title {
+    color: #131313;
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+.rpp-second-section-first-content-description {
+    margin-top: 32px;
+    color: #131313;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+
+.rpp-second-section-content-img {
+    
+    width: 379.324px;
+    height: 369.28px;
+}
+
+
+.rpp-second-section-third-content {
+    gap: 18px;
+}
+
+.rpp-second-section-graph-1,
+.rpp-second-section-graph-2,
+.rpp-second-section-graph-3 {
+    width: 247px;
+    height: 56px;
+    padding-right: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding-left: 60.35px; */
+    padding-right: 16.65px;
+    display: flex;
+    align-items: center;
+}
+
+.rpp-second-section-graph-1 {
+    border-radius: 8px;
+    background: var(--light-blue, #9AD9FF);
+
+}
+
+.rpp-second-section-graph-2 {
+    border-radius: 8px;
+    background: var(--light-green, #8ECB86);
+
+}
+
+.rpp-second-section-graph-3 {
+    border-radius: 8px;
+    background: var(--light-gold, #FFCA5D);
+}
+
+.rpp-second-section-graph-text {
+    color:  #131313;
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    line-height: 24px; /* 133.333% */
+    margin-left: 10.39px;
+}
+
+.rpp-second-section-graph-percent {
+    color:  #131313;
+
+    /* H10 */
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+}
+
+.first-graphs {
+    display: flex;
+}
+
+@media (max-width: 1440px) {
+
+    .rpp-second-section .rpp-section-first-content {
+        padding-left: 0px !important;
+    }
+
+}
+
+
+
+@media (max-width: 1199px) {
+
+    .rpp-second-section-third-content {
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    
+
+}
+
+@media (max-width: 1025px) {
+
+    
+
+    .rpp-second-section-container {
+        margin: 32px 0px;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .rpp-second-section-first-content-title {
+
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+
+    .rpp-second-section-first-content-description {
+
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+
+    }
+
+   
+
+
+    .rpp-second-section-graph-1,
+    .rpp-second-section-graph-2,
+    .rpp-second-section-graph-3 {
+        width: 350px;
+    }
+
+    .rpp-second-section-content-img {
+        /* width: 330px; */
+        /* height: 315px; */
+
+        width: 100%;
+    }
+
+}
