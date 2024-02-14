@@ -24,3 +24,9 @@ Route::get('/risk-protection-program', function () {
 Route::get('/unity-gains', function () {
     return view('pages/unity-gains', ['title' => 'TradersUnited | Unity Gains']);
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

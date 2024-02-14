@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title }}</title>
+    <title>TradersUnited</title>
     <link rel="stylesheet" href="{{ asset ('assets/css/bootstrap.css') }}">
 
     <link rel="shortcut icon" href="{{ asset ('assets/images/favicon.ico') }}" type="image/x-icon"/>
@@ -56,7 +56,8 @@
                 </svg>
             </div>
 
-            <div class="nav-humburger-btn">
+
+            <div class="nav-humburger-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="cursor: pointer;">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 18" fill="none">
                     <g clip-path="url(#clip0_34_508)">
                         <path d="M25.4888 9C25.4888 9.26522 25.3834 9.51957 25.1959 9.70711C25.0083 9.89464 24.754 10 24.4888 10H2.48877C2.22355 10 1.9692 9.89464 1.78166 9.70711C1.59413 9.51957 1.48877 9.26522 1.48877 9C1.48877 8.73478 1.59413 8.48043 1.78166 8.29289C1.9692 8.10536 2.22355 8 2.48877 8H24.4888C24.754 8 25.0083 8.10536 25.1959 8.29289C25.3834 8.48043 25.4888 8.73478 25.4888 9ZM2.48877 2H24.4888C24.754 2 25.0083 1.89464 25.1959 1.70711C25.3834 1.51957 25.4888 1.26522 25.4888 1C25.4888 0.734783 25.3834 0.48043 25.1959 0.292893C25.0083 0.105357 24.754 0 24.4888 0H2.48877C2.22355 0 1.9692 0.105357 1.78166 0.292893C1.59413 0.48043 1.48877 0.734783 1.48877 1C1.48877 1.26522 1.59413 1.51957 1.78166 1.70711C1.9692 1.89464 2.22355 2 2.48877 2ZM24.4888 16H2.48877C2.22355 16 1.9692 16.1054 1.78166 16.2929C1.59413 16.4804 1.48877 16.7348 1.48877 17C1.48877 17.2652 1.59413 17.5196 1.78166 17.7071C1.9692 17.8946 2.22355 18 2.48877 18H24.4888C24.754 18 25.0083 17.8946 25.1959 17.7071C25.3834 17.5196 25.4888 17.2652 25.4888 17C25.4888 16.7348 25.3834 16.4804 25.1959 16.2929C25.0083 16.1054 24.754 16 24.4888 16Z" fill="white"/>
@@ -92,15 +93,15 @@
                 </li>
             </ul>
             <ul class="navbar-nav navbar-login ms-auto">
-                <a class="nav-signUp" href="#">SignUp</a>
+                <a class="nav-signUp" href="/register">SignUp</a>
             </ul>
             <div class="border-line"></div>
-            <button type="button" class="btn btn-login">Login</button>
+            <button id="loginButton" type="button" class="btn btn-login m-auto">Login</button>
         </div>
         
     </nav>
     
-    @yield('content')
+@yield('content')
     
     <!-- Footer Start -->
     <footer id="footer-section" class="footer-section">
@@ -128,7 +129,7 @@
                             <path d="M153.548 17.3481C156.098 17.3481 157.957 18.569 157.957 22.1412V29.2177H154.478V22.3221C154.478 20.6942 153.5 20.0838 152.261 20.0838C150.521 20.0838 149.687 21.5308 149.568 22.2768V29.2177H146.088V17.4612H149.568V19.7899C149.925 18.976 151.26 17.3481 153.548 17.3481Z" fill="#414141"/>
                             <path d="M143.349 22.727C143.349 26.8995 140.548 29.2175 136.513 29.2175C132.43 29.2175 129.653 26.8995 129.653 22.727V12.7827H133.285V22.588C133.285 24.9987 134.495 26.1577 136.513 26.1577C138.531 26.1577 139.717 24.9987 139.717 22.588V12.7827H143.349V22.727Z" fill="#414141"/>
                             <path d="M161.61 15.5218C162.618 15.5218 163.436 14.7042 163.436 13.6957C163.436 12.6872 162.618 11.8696 161.61 11.8696C160.601 11.8696 159.784 12.6872 159.784 13.6957C159.784 14.7042 160.601 15.5218 161.61 15.5218Z" fill="#E7AA2D"/>
-                          </svg>
+                            </svg>
                     </div>
                     <div class="d-flex footer-socials">
                         <div class="footer-socials-logo">
@@ -222,11 +223,63 @@
             </div>
         </div>
     </footer>
-    <!-- Footer End -->
+        <!-- Footer End -->
+
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+        <div class="d-flex row mb-3">
+            <div class="col-6 d-flex">
+                <ul class="navbar-nav navbar-login m-auto">
+                    <a class="nav-signUp" href="/register">SignUp</a>
+                </ul>
+            </div>
+
+            <div class="col-6 d-flex">
+                <button id="loginButton" type="button" class="btn btn-login m-auto">Login</button>
+            </div>
+        </div>
+
+        
+
+        <ul class="navbar-nav d-flex navbar-link ms-auto">
+            <li class="nav-item">
+                <a class="nav-h11" href="/risk-protection-program">Rating</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-h11" href="/unity-gains">CommuniTrade</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-h11" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-h11" href="#">Advantages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-h11" href="#">TechHub</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-h11" href="#">Organization</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 
     
     <script src="{{ asset ('assets/js/bootstrap.js') }}"></script>
+
+    <script>
+        document.getElementById("loginButton").addEventListener("click", function() {
+            // Redirect to the /login page
+            window.location.href = "/login";
+        });
+    </script>
 
 
 </body>
