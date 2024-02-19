@@ -68,6 +68,10 @@ label {
     border: none;
 }
 
+.form-control::placeholder {
+    color: #9E9E9E; /* Your desired color for the placeholder text */
+}
+
 .form-select {
     border-radius: 8px;
     background: #414141;

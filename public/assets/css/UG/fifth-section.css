@@ -80,6 +80,7 @@
 }
 
 .ug-fifth-section-second-content-title {
+    max-width: 578px;
     color:  #FFF;
     /* font-family: "Articulat CF"; */
     font-size: 40px;
@@ -89,6 +90,7 @@
 }
 
 .ug-fifth-section-second-content-description {
+    max-width: 578px;
     color:  #FFF;
     margin-top:  32px;
     /* body-text-huge */
@@ -122,3 +124,84 @@
     font-weight: 700;
     line-height: 180px; /* 112.5% */
 }
+
+@media (max-width: 1440px) {
+    .ug-fifth-section-first-div {
+        border-radius: 0px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .ug-fifth-section-first-div {
+        padding-top: 32px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 32px !important;
+    }
+
+    .ug-fifth-section-second-content-title,
+    .ug-fifth-section-second-content-description {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .ug-fifth-section-first-content-number {
+        font-size: 56px;
+        line-height: 72px;
+    }
+}
+
+@media (max-width: 599px) {
+    .ug-fifth-section-first-content-title {
+        font-size: 24px;
+        line-height: 36px; /* 150% */
+    }
+
+    .ug-fifth-section-first-content-number {
+        font-size: 40px;
+        line-height: 52px; /* 130% */
+    }   
+
+    .ug-fifth-section-first-content-description {
+        font-size: 14px;
+        line-height: 24px; /* 171.429% */
+    }
+
+    .ug-fifth-section-second-content, .ug-fifth-section-third-content {
+        margin-top: 32px;
+    }
+
+    .ug-fifth-section-third-content-title {
+        font-size: 20px;
+        line-height: 52px; /* 260% */
+    }
+
+    .ug-fifth-section-second-content-percent {
+        font-size: 72px;
+        line-height: 84px; /* 250% */
+    }
+
+    .ug-fifth-section-second-content-title {
+        font-size: 24px;
+        line-height: 36px; /* 150% */
+    }
+    
+    .ug-fifth-section-second-content-description {
+        margin-top: 14px;
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+
+
+
+
+
+
+
+
+
+}
+

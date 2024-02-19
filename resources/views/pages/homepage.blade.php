@@ -20,25 +20,29 @@
         <section id="landing-section" class="landing-section">
             <!-- Background  Images -->
             <div class="landing-img-background m-auto" >
-                    <img src="{{ asset ('assets/images/Home-images/hero_image_left.png') }}" alt="" class=" background-img-left"/>
-                    <img src="{{ asset ('assets/images/Home-images/hero_image_right.png') }}" alt="" class="background-img-right"/>
+                    <img src="{{ asset ('assets/images/Home-images/hero_image_left.png') }}" alt="" class=" background-img-left" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine" data-aos-duration="2000"/>
+                    <img src="{{ asset ('assets/images/Home-images/hero_image_right.png') }}" alt="" class="background-img-right" data-aos="fade-left"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine" data-aos-duration="2000"/>
             </div>
 
             <!-- Landing Text Division -->
-            <div class="lading-section-text-div mx-auto d-flex">
+            <div class="lading-section-text-div mx-auto d-flex" data-aos="zoom-in-up" data-aos-duration="1500">
                 <div class="h4 landing-title text-center">The <span>world’s first</span> <br>independent community-based protection provider for traders</div>
                 <div class="h7 landing-sub-title text-center">Solidified network of <span>undeceivable traders.</span></div>
-                <button type="button" class="btn btn-get-started text-center mx-auto">Be a TRU member</button>
+                <button type="button" class="btn btn-get-started text-center mx-auto" data-aos="zoom-in" data-aos-duration="2000">Be a TRU member</button>
             </div>
 
             <!-- Landing Card Division -->
-            <div class="lading-section-card-div mx-auto d-flex container-fluid" style="max-width: 1400px">
+            <div class="lading-section-card-div mx-auto d-flex container-fluid" style="max-width: 1400px" >
                 <!-- Card Section Title -->
-                <div class="h6 landing-card-title text-center text-white">Experience unbiased resources in the Financial Markets</div>
+                <div class="h6 landing-card-title text-center text-white"data-aos="zoom-in-up" data-aos-duration="1500">Experience unbiased resources in the Financial Markets</div>
                 <!-- Card Row -->
                 <div class="card-div row" style="margin-top: 48px;margin-bottom: 52px;">
                     <!-- First Card -->
-                    <div class="col-4 px-3">
+                    <div class="col-4 px-3" data-aos="flip-right" data-aos-duration="2000">
                         <div class="landing-card" style="min-height: 490px;border-radius: 48px;border: 2px solid #9AD9FF;background: #1681C2;background-image: url({{ asset ('assets/images/Home-images/card-1.png') }});display: flex;mix-blend-mode: plus-darker;">
                             <div class="m-auto">
                                 <div class="landing-card-title text-white text-center mx-auto my-5" style="max-width: 334px;">CommuniTrade</div>
@@ -46,10 +50,9 @@
                                     a guarantee to navigate your trading career confidently.</div>
                             </div>
                         </div>
-
                     </div>
                     <!-- Second Card -->
-                    <div class="col-4 px-3">
+                    <div class="col-4 px-3" data-aos="flip-up" data-aos-duration="2000">
                         <div class="landing-card" style="min-height: 490px;border-radius: 48px;border: 2px solid #E7AA2D;background: #817B0D;background-image: url({{ asset ('assets/images/Home-images/card-2.png') }});display: flex;mix-blend-mode: plus-darker;">
                             <div class="m-auto">
                                 <div class="landing-card-title text-white text-center mx-auto my-5" style="max-width: 334px;">CommuniTrade</div>
@@ -59,7 +62,7 @@
                         </div>
                     </div>
                     <!-- Third Card -->
-                    <div class="col-4 px-3">
+                    <div class="col-4 px-3" data-aos="flip-left" data-aos-duration="2000">
                         <div class="landing-card" style="min-height: 490px;border-radius: 48px;border: 2px solid #8ECB86;background: #569E4C;background-image: url({{ asset ('assets/images/Home-images/card-3.png') }});display: flex;mix-blend-mode: plus-darker;">
                             <div class="m-auto" style="max-width: 339px;">
                                 
@@ -101,37 +104,37 @@
             </div>
         </section>
 
-        <section id="second-section" class="second-section" data-color="">
+        <section id="second-section" class="second-section" data-color="" >
             <!-- Second Section Container -->
-            <div  class="second-section-content-container container-fluid">
+            <div  class="second-section-content-container container-fluid" >
                 <!-- Second Section Division -->
                 <div class="row second-section-div px-3">
                     <!-- First Content-->
-                    <div class="section-section-content col-2 px-2">
+                    <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-duration="3000">
                         <!-- <div class="second-section-title text-center">80M+</div> -->
                         <div class="second-section-title text-center" data-count="80000000">0</div>
                         <div class="second-section-description text-center">Traders <br> Worldwide</div> 
                     </div>
                     <!-- Second Content-->
-                    <div class="section-section-content col-2 px-2">
+                    <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-delay="200" data-aos-duration="3000">
                         <!-- <div class="second-section-title text-center">60k+</div> -->
                         <div class="second-section-title text-center" data-count="60000">0</div>
                         <div class="second-section-description text-center">Online <br> Brokers</div>
                     </div>
                     <!-- Third Content-->
-                    <div class="section-section-content col-2 px-2">
+                    <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-delay="400" data-aos-duration="3000">
                         <!-- <div class="second-section-title text-center">170</div> -->
                         <div class="second-section-title text-center" data-count="170">0</div>
                         <div class="second-section-description text-center">Countries</div>
                     </div>
                     <!-- Forth Content-->
-                    <div class="section-section-content col-2 px-2">
+                    <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-delay="600" data-aos-duration="3000">
                         <!-- <div class="second-section-title text-center">5</div> -->
                         <div class="second-section-title text-center" data-count="5">0</div>
                         <div class="second-section-description text-center">Continents</div>
                     </div>
                     <!-- Fifth Content-->
-                    <div class="section-section-content col-2 px-2">
+                    <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-delay="800" data-aos-duration="3000">
                         <!-- <div class="second-section-title text-center">1</div> -->
                         <div class="second-section-title text-center" data-count="1">0</div>
                         <div class="second-section-description text-center">Traders United</div>
@@ -139,7 +142,7 @@
                 </div>
             </div>
             <!-- Second Section Ads Division -->
-            <div class="second-section-advertisment-container container-fluid mx-auto"></div>
+            <div class="second-section-advertisment-container container-fluid mx-auto" data-aos="fade-up" data-aos-duration="1500"></div>
         </section>
         <!-- Second Section End -->     
 
@@ -180,7 +183,7 @@
 
                 <div class="third-section-container row mx-auto">
                     <div class="padding-gap col-12">
-                        <div class="third-section-first-div row ">
+                        <div class="third-section-first-div row" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
                             <div class="third-section-first-content d-flex col-12 col-xl-6 ">
                                 <div class="m-auto">  
                                     <div class="third-section-first-content-title">
@@ -662,5 +665,20 @@
 </div>
 
 <script src="{{ asset ('assets/js/index.js') }}"></script>
+
+<script>
+
+function playloader() {     
+    var preloader = document.getElementById("preloader");
+    preloader.classList.add("slide-up"); // Add the slide-up class to initiate the slide transition
+    // You can add further actions here if needed
+
+    setTimeout(function() {
+        AOS.init();
+    }, 1000); // 3000 milliseconds = 3 seconds
+
+}
+
+</script>
 
 @endsection

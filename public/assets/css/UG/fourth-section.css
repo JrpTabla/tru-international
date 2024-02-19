@@ -42,7 +42,39 @@
 }
 
 
+@media (max-width: 1200px) {
 
+    .ug-fourth-section-first-div {
+        padding: 20px !important    ;
+    }
+
+    .rpp-landing-section-Btn-div {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 599px) {
+    .ug-fourth-section-first-content-title {
+
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+
+    .ug-fourth-section-first-content-description {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        margin-top: 14px;
+    }
+
+    .ug-fourth-section-container {
+        margin-top: 0px !important;
+    }
+    
+        
+}
 
 
 /* 

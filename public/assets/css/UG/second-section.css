@@ -88,6 +88,85 @@
     margin-top: -300px;
 }
 
+@media (max-width: 1440px) {
+
+    .ug-second-section-graph {
+        margin-top: -200px !important;
+    }
+
+    .ug-second-section-container-description-div {
+        padding: 20px !important;
+    }
+
+}
 
 
-/* First Card */
+@media (max-width: 767px) {
+
+    .ug-second-section-container-description-div {
+        padding: 0px !important;
+    }
+
+    .ug-second-section-container-description-div {
+        margin-top: -200px !important;
+    }
+
+    .ug-second-section-container-description-title {
+        text-align: center;
+
+    }
+
+    .ug-second-section-container-description-description {
+        max-width: 100% !important;
+        padding: 20px;
+    }
+
+    .ug-second-section-container-sub-title {
+        font-size: 72px;
+        line-height: 82px; /* 112.5% */
+    }
+
+
+}
+
+
+
+@media (max-width: 599px) {
+
+
+
+    .ug-second-section-graph {
+        margin-top: -270px !important;
+    }
+
+    .ug-second-section-container-description-div {
+        margin-top: -240px !important;
+
+    }
+
+    .ug-second-section-container-description-title {
+        font-size: 24px;
+        line-height: 32px; /* 233.333% */
+    }
+
+    .ug-second-section-container-description-description {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+
+    .ug-second-section-container {
+        margin: 32px 0px;
+    }
+
+    .ug-second-section-container-title {
+        font-size: 24px;
+        line-height: 36px; /* 150% */
+    }
+
+    .ug-second-section-container-sub-title {
+        margin-top: 0px !important;
+        font-size: 46px;
+        line-height: 56px; /* 200% */
+    }
+
+}

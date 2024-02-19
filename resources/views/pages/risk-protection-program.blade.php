@@ -124,6 +124,9 @@
   </section>
 
   <section id="rpp-third-section" class="rpp-third-section">
+    <div class="rpp-fourth-section-title text-center mx-auto">
+      Hassle-free claims processing.
+    </div>
     <div class="rpp-third-section-container row mx-auto">
       <div class="rpp-third-section-first-div row">
         <div class="rpp-third-section-first-content d-flex col-12 col-xl-6">

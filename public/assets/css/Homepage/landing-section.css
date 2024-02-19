@@ -59,7 +59,7 @@
     align-items: center;
     gap: 12px;
     border-radius: 64px;
-    background: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
+    /*  */
     color: white;
     text-align: center;
     /* font-family: "Articulat CF"; */
@@ -68,13 +68,41 @@
     font-weight: 700;
     line-height: 30px; /* 166.667% */
 
-    transition: 1s ease-in-out, color 1s ease-in-out; /* Added transition here */
+    background-image: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
+    /* box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75); */
+
+    /* background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19); */
+
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+
+
 }
 
+
 .btn-get-started:hover {
+    color: white !important;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-get-started:focus {
+    outline: none;
+}
+
+/* .btn-get-started:hover {
     color: white;
     background: linear-gradient(-180deg, #FFC400 -1.92%, #F17727 63.45%);
-}
+} */
 
 
 .lading-section-card-div {

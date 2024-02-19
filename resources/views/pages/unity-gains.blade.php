@@ -16,49 +16,61 @@
 <div class="main">
     <!-- Fourth Section Start -->
     <section id="ug-landing-section" class="ug-landing-section">
-        <div class="ug-section-container row mx-auto">
-            <div class="ug-section-first-div row">
-                <div class="ug-landing-section-first-content d-flex col-12 col-xl-6">
-                    <div class="m-auto">  
-                        <div class="ug-landing-section-first-content-title">
-                            UnityGains
-                        </div>
-                        <div class="ug-landing-section-first-content-description">
-                            Let's earn and grow — TRUgether
-                        </div>
-                        <a class="Be-a-TRU-btn">Earn By Engaging Now!</a>
-                    </div>
+        <div class="ug-landing-section-container row mx-auto">
+        <div class="ug-landing-section-first-div row">
+            <div
+            class="ug-landing-section-first-content d-flex col-12 col-xl-6"
+            >
+            <div class="m-auto">
+                <div class="ug-landing-section-first-content-title">
+                UnityGains
                 </div>
-                <div class="ug-landing-section-second-content d-flex col-12 col-xl-6">
-                    <div class="mx-auto mt-auto">  
-                        <div class="ug-landing-section-first-content-img">
-                            <img src="{{ asset ('assets/images/UG-images/landing-img.png') }}" alt="" style="width: 100%;">
-                        </div>
-                    </div>
+                <div class="ug-landing-section-first-content-description">
+                    Let's earn and grow — TRUgether
+                </div>
+                <div class="ug-landing-section-Btn-div">
+                    <a class="Be-a-TRU-btn">Be a TRU member</a>
+                </div>
+                
+            </div>
+            </div>
+            <div
+            class="ug-landing-section-second-content d-flex col-12 col-xl-6"
+            >
+            <div class="mx-auto mt-auto">
+                <div class="ug-landing-section-first-content-img">
+                <img
+                    src="{{ asset ('assets/images/UG-images/landing-img.png') }}"
+                    alt=""
+                    style="width: 100%"
+                />
                 </div>
             </div>
+            </div>
+        </div>
         </div>
     </section>
 
+    
     <section id="ug-second-section" class="ug-second-section">
         <div class="ug-second-section-container row mx-auto">
             <div class="ug-second-section-first-div row">
-            <div class="ug-second-section-container-title">UnityGains for members</div>
-            <div class="ug-second-section-container-sub-title">392,312.88 USD</div>
-            <div class="ug-second-section-container-description-div mx-auto">
-                <div class="ug-second-section-container-description-title">This is profit-sharing, remagined</div>
-                <div class="ug-second-section-container-description-description">We value our members’ trust and we show that through a collaborative and mutually beneficial UnityGains program. TRU uses a systematic mechanism to ensure an accurate and fair distribution of the program’s benefits among all our valued members.</div>
-            </div>
+                <div class="ug-second-section-container-title order-1 order-lg-1">UnityGains for members</div>
+                <div class="ug-second-section-container-sub-title order-2 order-lg-2">392,312.88 USD</div>
+                <div class="ug-second-section-container-description-div mx-auto order-4 order-md-3">
+                    <div class="ug-second-section-container-description-title">This is profit-sharing, remagined</div>
+                    <div class="ug-second-section-container-description-description">We value our members’ trust and we show that through a collaborative and mutually beneficial UnityGains program. TRU uses a systematic mechanism to ensure an accurate and fair distribution of the program’s benefits among all our valued members.</div>
+                </div>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="648" viewBox="0 0 1920 648" fill="none" class="ug-second-section-container-graph">
-                <path d="M142.505 374.43L51.3114 401.501L-2.66046 374.43L-61.2851 432.104L-112 647.5H1938V0L1761.66 112.407L1610.91 150.092L1470.17 124.309L1362.92 195.52L1193.17 222.592L1033.49 344.415L958.031 296.745L829.024 374.43H787.157L742.37 401.501L616.283 344.415L444.934 401.501H291.574L226.827 432.104L142.505 374.43Z" fill="url(#paint0_linear_1287_7626)" fill-opacity="0.56"/>
-                <defs>
-                <linearGradient id="paint0_linear_1287_7626" x1="-151.423" y1="335.041" x2="1938" y2="335.041" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#E7AA2D"/>
-                <stop offset="1" stop-color="#1681C2"/>
-                </linearGradient>
-                </defs>
-            </svg>
+                <svg class="ug-second-section-graph order-3 order-md-4" xmlns="http://www.w3.org/2000/svg" width="1920" height="648" viewBox="0 0 1920 648" fill="none" class="ug-second-section-container-graph">
+                    <path d="M142.505 374.43L51.3114 401.501L-2.66046 374.43L-61.2851 432.104L-112 647.5H1938V0L1761.66 112.407L1610.91 150.092L1470.17 124.309L1362.92 195.52L1193.17 222.592L1033.49 344.415L958.031 296.745L829.024 374.43H787.157L742.37 401.501L616.283 344.415L444.934 401.501H291.574L226.827 432.104L142.505 374.43Z" fill="url(#paint0_linear_1287_7626)" fill-opacity="0.56"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_1287_7626" x1="-151.423" y1="335.041" x2="1938" y2="335.041" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E7AA2D"/>
+                    <stop offset="1" stop-color="#1681C2"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
             </div>
         </div>
     </section>
@@ -77,7 +89,7 @@
                 <div class="mx-auto">
                 <div class="ug-third-section-first-content-img">
                     <img
-                    src=""
+                    src="{{ asset ('assets/images/UG-images/third-section/circle-graph.png') }}"
                     alt=""
                     style="width: 100%"
                     />
@@ -85,25 +97,25 @@
                 </div>
             </div>
             <div class="ug-third-section-third-content d-flex col-12 row">
-                <div class="col-3" style="display: flex; align-content: center;margin: auto;">
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
                         <circle cx="10" cy="10" r="10" fill="#1681C2"/>
                     </svg>
                     <div class="ug-third-section-third-content-description-member">Membership: $200,000</div>
                 </div>
-                <div class="col-3" style="display: flex; align-content: center;margin: auto;">
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
                         <circle cx="10" cy="10" r="10" fill="#569E4C"/>
                     </svg>
                     <div class="ug-third-section-third-content-description-affiliates" class="my-auto">Affiliates: $160,000</div>
                 </div>
-                <div class="col-3" style="display: flex; align-content: center;margin: auto;">
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
                         <circle cx="10" cy="10" r="10" fill="#F27927"/>
                     </svg>
                     <div class="ug-third-section-third-content-description-others">Others: $80,000</div>
                 </div>
-                <div class="col-3" style="display: flex; align-content: center;margin: auto;">
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
                         <circle cx="10" cy="10" r="10" fill="#B17B0D"/>
                     </svg>
@@ -147,10 +159,10 @@
     <section id="ug-fifth-section" class="ug-fifth-section">
         <div class="ug-fifth-section-container row mx-auto">
             <div class="ug-fifth-section-first-div row">
-                <div class="ug-fifth-section-first-content-title">
+                <div class="ug-fifth-section-first-content-title order-1 order-xl-1">
                     UnityGains Countdown
                 </div>
-                <div class="row ug-fifth-section-first-content-timer-div mx-auto">
+                <div class="row ug-fifth-section-first-content-timer-div mx-auto  order-2 order-xl-2">
                     <div class="col-3 row">
                         <div class="col-10 my-auto">
                             <div class="ug-fifth-section-first-content-number">
@@ -201,18 +213,20 @@
                         </div>
                     </div>
                 </div>  
-                <div class="ug-fifth-section-second-content col-12 col-xl-6">
+                <div class="ug-fifth-section-second-content col-12 col-xl-8  order-4 order-xl-3">
                     
                     <div class="ug-fifth-section-second-content-title">
                     Time is running, your gains are waiting
                     </div>
                     <div class="ug-fifth-section-second-content-description">
-                        UnityGains is a more comprehensive, transparent, and member-oriented approach to the profit-sharing system. It is a TRU initiative that dedicates 35% of its profit, rewarding members for their active participation in the community throughout the year. It is simple – as the organization prospers, TRU members earn. 
+                    UnityGains recognizes the active participation of TRU member
+throughout the year. The sooner you become a member, the bigger
+is your potential benefits from UnityGains. 
                     </div>
 
                 </div>
 
-                <div class="ug-fifth-section-third-content col-12 col-xl-6">
+                <div class="ug-fifth-section-third-content col-12 col-xl-4 order-3 order-xl-4">
                     <div class="ug-fifth-section-third-content-title">
                         Your Potential Share %
                         </div>
@@ -225,111 +239,61 @@
         </div>
     </section>
 
-    <section id="ug-sixth-section" class="ug-sixth-section">
-        <div class="ug-sixth-section-title text-center mx-auto">
-            You may also be asking…
+    <section id="ct-sixth-section" class="ct-sixth-section">
+        <div class="ct-sixth-section-title text-center mx-auto">
+        You may also be asking…
         </div>
-        <div class="ug-section-container row mx-auto">
-            <div class="ug-sixth-section-first-div">
+        <div class="ct-section-container row mx-auto">
+        <div class="ct-section-first-div">
 
-            <div
-                class="accordion accordion-flush mx-auto"
-                id="accordionFlushExample"
-            >
+            <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
+
                 <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseOne"
-                    >
-                    <img
-                        src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}"
-                        alt=""
-                        style="margin-right: 18px"
-                    />
-                    <div>
-                        <div class="faq-name">
-                        <span>DeMarcus Palmer</span>, Zimbabwe
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1"aria-expanded="false" aria-controls="flush-1">
+                        <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                        <div class="faq-send">
+                            <div class="faq-name">
+                                <span>Zara Al-Farsi</span>, United States
+                            </div>
+                            <div class="faq-comment">
+                                Just wondering, is TRU giving away money? What’s the
+                                reason for RPP?
+                            </div>
                         </div>
-                        <div>
-                        How can I qualify for the UnityGains?
-                        </div>
-                    </div>
                     </button>
-                </h2>
-                <div
-                    id="flush-collapseOne"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                >
-                    <div class="d-flex w-100">
-                    <div class="ms-auto">
-                        <div class="faq-name text-end">
-                        <span>Traders United</span>
-                        </div>
-                        <div>
-                        How can I know if I’m qualified for the Risk Protection
-                        Plan?
-                        </div>
-                    </div>
-                    <img
-                        src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}"
-                        alt=""
-                        style="margin-left: 18px"
-                    />
-                    </div>
-                </div>
-                </div>
-                <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
-                    >
-                    <img
-                        src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}"
-                        alt=""
-                        style="margin-right: 18px"
-                    />
-                    <div>
-                        <div class="faq-name">
-                        <span>Zara Al-Farsi</span>, United States
-                        </div>
-                        <div>
-                        Just wondering, is TRU giving away money? What’s the
-                        reason for RPP?
+                    <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="faq-response faq-response-lg" style="">
+                                <div class="faq-response-name"> 
+                                    <span>Traders United</span>
+                                </div>
+                                <div class="faq-respponse-comment">
+                                    No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
+                                </div>
+                            </div>
+                            <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                            <div class="faq-response faq-response-sm">
+                                <div class="faq-response-name"> 
+                                    <span>Traders United</span>
+                                </div>
+                                <div class="faq-respponse-comment">
+                                    No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    </button>
-                </h2>
-                <div
-                    id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                >
-                    <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the second item's accordion body. Let's imagine this being
-                    filled with some actual content.
-                    </div>
                 </div>
-                </div>
-            </div>
-            </div>
-            <div class="ug-sixth-section-show-more text-center mx-auto">
-            Show more
             </div>
         </div>
-        </section>
+        <div class="ct-sixth-section-show-more text-center mx-auto">
+            Show more
+        </div>
+        </div>
+    </section>
+
+
+
 
         <section id="ug-seventh-section" class="ug-seventh-section">
         <div class="ug-seventh-section-container row mx-auto">
@@ -350,19 +314,20 @@
             <div
                 class="ug-seventh-section-second-content col-12 col-xl-6"
             >
-                <div class="m-auto">
-                <div class="ug-seventh-section-first-content-img">
+
+                <div class="ug-seventh-section-first-content-img mx-auto">
                     <img
                     src="{{ asset ('assets/images/UG-images/seventh-section/seventh-section-img.png') }}"
                     alt=""
                     style="width: 100%"
                     />
                 </div>
-                </div>
+
             </div>
             </div>
         </div>
     </section> 
+
 </div>
 
 @endsection

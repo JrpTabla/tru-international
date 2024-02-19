@@ -27,4 +27,12 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 24px; /* 150% */
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+
+.btn-Goback:hover {
+    color: #fff;
+    background-color: #414141;
 }

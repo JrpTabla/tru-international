@@ -22,11 +22,25 @@ Route::get('/risk-protection-program', function () {
 });
 
 Route::get('/unity-gains', function () {
-    return view('pages/unity-gains', ['title' => 'TradersUnited | Unity Gains']);
+    return view('pages/unity-gains', ['title' => 'TradersUnited | UnityGains']);
+});
+
+Route::get('/communitrade', function () {
+    return view('pages/communitrade', ['title' => 'TradersUnited | CommuniTrade']);
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('pages/user/dashboard', ['title' => 'TradersUnited | Dashboard']);
 })->middleware(['auth'])->name('dashboard');
 
+Route::get('/techhub', function () {
+    return view('pages/user/techhub', ['title' => 'TradersUnited | TechHub']);
+})->middleware(['auth'])->name('techhub');
+
+
+Auth::routes(['verify' => true]);
+
 require __DIR__.'/auth.php';
+
+require __DIR__.'/user.php';
+

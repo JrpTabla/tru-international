@@ -18,19 +18,18 @@
             </div>
         </div>
         <div class="col-6 d-flex div-second-content">
-            <form method="POST" action="{{ route('login') }}" class="m-auto">
-            @csrf
+            <form id="loginForm" class="m-auto">
                 <div class="input-form">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required autofocus>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required autofocus placeholder="email">
                 </div>
 
                 <div class="input-form-2">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" required>
+                    <input type="password" class="form-control" id="password" name="password" required placeholder="password">
                 </div>
                 <div class="input-form-btn">
-                    <button class="btn btn-login">Login</button>
+                    <button type="submit" class="btn btn-login">Login</button>
                 </div>
 
                 <div class="input-form-forgot-password">
@@ -41,10 +40,45 @@
                     <a href="{{ route('register')}}" class="create-account">Create my TRU account</a>
                 </div>
             </form>
-
-
         </div>
     </div>
 </div>
+
+
+<script>
+
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        
+        // Get the form data
+        const formData = new FormData(this);
+
+        // Send an AJAX request to the server
+        fetch('/login', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+
+            /* console.log(data); */
+            if (data.success) {
+                // Redirect to intended page on successful login
+                window.location.href = data.redirect;
+            } else {
+                // Handle login failure, e.g., display an error message
+                alert('Login failed. Please check your credentials.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+
+    
+</script>
 
 @endsection

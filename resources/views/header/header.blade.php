@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TradersUnited</title>
+    <title>{{ $title }}</title>
     <link rel="stylesheet" href="{{ asset ('assets/css/bootstrap.css') }}">
 
     <link rel="shortcut icon" href="{{ asset ('assets/images/favicon.ico') }}" type="image/x-icon"/>
@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="{{ asset ('assets/css/Homepage/navbar.css') }}">
     <link rel="stylesheet" href="{{ asset ('assets/css/Homepage/footer.css') }}">
 
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     
 
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top"  data-aos="fade-down" data-aos-duration="3000">
         <!-- Navigation Bar LOGO -->
         <a class="navbar-brand" href="/">
             <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 191 40" fill="none">
@@ -77,10 +78,10 @@
                     <a class="nav-h11" href="/risk-protection-program">Rating</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-h11" href="/unity-gains">CommuniTrade</a>
+                    <a class="nav-h11" href="/communitrade">CommuniTrade</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-h11" href="#">Resources</a>
+                    <a class="nav-h11" href="/unity-gains">Resources</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-h11" href="#">Advantages</a>
@@ -101,7 +102,15 @@
         
     </nav>
     
-@yield('content')
+    @yield('content')
+
+    <div class="preloader" id="preloader">
+        <div>
+
+            <button type="button" class="btn btn-get-started text-center mx-auto" onclick="playloader()">Be a TRU member</button>
+        </div>
+        
+    </div>
     
     <!-- Footer Start -->
     <footer id="footer-section" class="footer-section">
@@ -273,14 +282,23 @@
 
     
     <script src="{{ asset ('assets/js/bootstrap.js') }}"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
         document.getElementById("loginButton").addEventListener("click", function() {
             // Redirect to the /login page
             window.location.href = "/login";
         });
+
+
+
+
+
     </script>
 
+    
+
+</body>
 
 </body>
 
