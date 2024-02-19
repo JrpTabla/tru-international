@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="{{ asset ('assets/css/Homepage/navbar.css') }}">
     <link rel="stylesheet" href="{{ asset ('assets/css/Homepage/footer.css') }}">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
     
 
 </head>
@@ -104,13 +104,13 @@
     
     @yield('content')
 
-    <div class="preloader" id="preloader">
+    <!-- <div class="preloader" id="preloader">
         <div>
 
             <button type="button" class="btn btn-get-started text-center mx-auto" onclick="playloader()">Be a TRU member</button>
         </div>
         
-    </div>
+    </div> -->
     
     <!-- Footer Start -->
     <footer id="footer-section" class="footer-section">
@@ -282,7 +282,7 @@
 
     
     <script src="{{ asset ('assets/js/bootstrap.js') }}"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
         document.getElementById("loginButton").addEventListener("click", function() {
@@ -294,7 +294,7 @@
 
 
 
-    </script>
+    </script> -->
 
     
 

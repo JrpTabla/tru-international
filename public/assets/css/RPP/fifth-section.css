@@ -1,5 +1,5 @@
 .rpp-fifth-section {
-    background-image: url(../../RPP-images/fifth-section/background.png);
+    background-image: url(../../images/RPP-images/fifth-section/background.png);
     background-position-x: center;
     background-repeat: no-repeat;
     position: relative;
@@ -18,9 +18,6 @@
     
 }
 
-.rpp-section-first-content {
-/*    padding-left: 91px;*/
-}
 
 
 .rpp-fifth-section-first-content-title {

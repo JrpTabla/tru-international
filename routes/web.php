@@ -14,27 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages/homepage', ['title' => 'TradersUnited']);
+    return view('pages/homepage', ['title' => 'Traders United']);
 });
 
 Route::get('/risk-protection-program', function () {
-    return view('pages/risk-protection-program', ['title' => 'TradersUnited | Risk Protection Program']);
+    return view('pages/risk-protection-program', ['title' => 'Traders United | Risk Protection Program']);
 });
 
 Route::get('/unity-gains', function () {
-    return view('pages/unity-gains', ['title' => 'TradersUnited | UnityGains']);
+    return view('pages/unity-gains', ['title' => 'Traders United | UnityGains']);
 });
 
 Route::get('/communitrade', function () {
-    return view('pages/communitrade', ['title' => 'TradersUnited | CommuniTrade']);
+    return view('pages/communitrade', ['title' => 'Traders United | CommuniTrade']);
 });
 
 Route::get('/dashboard', function () {
-    return view('pages/user/dashboard', ['title' => 'TradersUnited | Dashboard']);
+    return view('pages/user/dashboard', ['title' => 'Traders United | Dashboard']);
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('/techhub', function () {
-    return view('pages/user/techhub', ['title' => 'TradersUnited | TechHub']);
+    return view('pages/user/techhub', ['title' => 'Traders United | TechHub']);
 })->middleware(['auth'])->name('techhub');
 
 
